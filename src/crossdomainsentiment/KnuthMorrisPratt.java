@@ -160,7 +160,7 @@ while(line1 != null){
         String pattern = br.readLine();
 
         KnuthMorrisPratt kmp = new KnuthMorrisPratt(text, pattern);        
-
+        System.err.println("done");
     }
 
 }
